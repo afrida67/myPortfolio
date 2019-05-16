@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 
 import mydata from './data';
 
+import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -17,9 +18,10 @@ class App extends Component {
         <div className="App">
            <AppNavbar/>
            <Home data = {mydata}/>
-           <About/>
+           <About data = {mydata}/>
            <Education/>
            <Skills/>
+           <Projects/>
     
         </div>
       );

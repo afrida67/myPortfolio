@@ -9,16 +9,13 @@ import {
   NavLink } from 'reactstrap';
 
 export class AppNavbar extends React.Component {
-  constructor(props) {
-    super(props);
 
-    this.toggle = this.toggle.bind(this);
-    this.state = {
+    state = {
       isOpen: false
     };
-  }
+  
 
-  toggle() {
+  toggle = () => {
     this.setState({
       isOpen: !this.state.isOpen
     });
@@ -35,7 +32,7 @@ export class AppNavbar extends React.Component {
                 <NavLink href="/components/Home">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/About">About</NavLink>
+                <NavLink href="#about">About</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/components/Education">Education</NavLink>

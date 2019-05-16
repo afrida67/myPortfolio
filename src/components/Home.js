@@ -4,7 +4,6 @@ import { Jumbotron, Button } from 'reactstrap';
 export class Home extends Component {
   render() {
     let data = this.props.data;
-    console.log('aa'+data);
     return (
       <div>
         <Jumbotron>
@@ -13,8 +12,25 @@ export class Home extends Component {
             <hr className="my-2" />
             <p>I'm currently working as a {data.role} at {data.company}.</p>
             <p className="lead">
-            <Button color="primary">Learn More About Me Below</Button>
+            <Button color="primary">Social Profiles</Button>
             </p>
+            <div class="linkNew">
+            <nav>
+            <ul className="social">
+                {
+                    data.socialProfiles && data.socialProfiles.map(item => {
+                      return(
+                              <li key={item.name}>
+                                <a href={item.url} target="_blank" rel="noopener noreferrer"><i className={item.className}></i></a>
+                              </li>
+                            )
+                      }
+                    )
+                  }
+            </ul>
+            </nav>
+            </div>
+    
       </Jumbotron>
       </div>
     )

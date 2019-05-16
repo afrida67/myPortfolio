@@ -1,27 +1,48 @@
 .App {
   text-align: center;
 }
+.linkNew{
+  min-height: 5px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.links{
+  padding:30px 0;
+  display: relative;
+  margin-left: 40%;
+}
+/* header social links */
+ .social {
+  margin: 24px 0;
+  padding: 0;
+  font-size: 30px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+.social li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+/*profile pic css*/
+
+.img-circle{
+  border-radius: 50%;
+}
+.shadow{
+  box-shadow: 7px 7px 7px #666;
+  position : relative;
+  transition : all 0.2s;
+  top : 0;
+}
+.up-hover:hover {
+  top :-5px;
+  box-shadow: 15px 15px 15px #777;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.avatar{
+  display: block;
+  position:relative;
+  height: 230px;
+	width : 220px;
+	margin:auto;
 }
