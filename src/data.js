@@ -24,8 +24,7 @@ const mydata = {
             "className":"fa fa-tumblr-square"
          },
      ],
-     "aboutme": "A lightweight, customizable single-page personal portfolio website template built with JavaScript and Sass A lightweight, customizable single-page personal portfolio website template built with JavaScript and Sass",
-     "address": "Bangladesh",
+     "aboutMe": "Let me introduce myself. I'm Afrida, a bsc graduate in CSE currently working as a Software Engineer at Dynamic Solution Innovators. I love developing softwares because, to me, building software means solving real world problems.",
      "education": [
          {
             "id":"bsc",
@@ -63,21 +62,21 @@ const mydata = {
             "projectName": "Triolet Photo",
             "description": "A django photo uploading website where users can upload, delete, like and view photos of other users",
             "url": "https://triolet67aaa.herokuapp.com/",
-            "imageUrl":""
+            "imageUrl": "/images/djnago.PNG"
          },
          {
             "id":"2",
             "projectName": "Bua.Com",
             "description": "An android application for finding nearby maids",
             "url": "https://github.com/afrida67/Bua.Com-App",
-            "imageUrl":""
+            "imageUrl":"/images/bua.png"
          },
          {
             "id":"3",
             "projectName": "Catch the Egg",
             "description": "2D openGL game",
             "url": "https://github.com/afrida67/Catch-the-Egg",
-            "imageUrl":""
+            "imageUrl": "/images/egg.PNG"
          },
       ],
       "contact": {

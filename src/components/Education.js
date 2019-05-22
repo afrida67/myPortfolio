@@ -5,21 +5,19 @@ export class Education extends Component {
     let data = this.props.data;
     return (
       <section id="education">
-      <h1>Education</h1>
-      <div>
-            <ul>
+      <h1 className="border_new"><i class="fa fa-university"></i> Education</h1>
+          <div>
                 {
                     data.education && data.education.map(item => {
                       return(
-                              <li key={item.id}> 
+                            <h2 key={item.id}> 
                              <h6>{item.schoolName}</h6> 
                              <h6>{item.degree}</h6>
-                              </li>
+                              </h2>
                             )
                       }
                     )
                   }
-            </ul>
        </div>
       </section>
     )

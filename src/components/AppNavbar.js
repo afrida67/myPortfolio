@@ -14,7 +14,6 @@ export class AppNavbar extends React.Component {
       isOpen: false
     };
 
-
   toggle = () => {
     this.setState({
       isOpen: !this.state.isOpen
@@ -42,6 +41,9 @@ export class AppNavbar extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink href="#projects">Projects</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#contact">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
