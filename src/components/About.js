@@ -6,7 +6,7 @@ export class About extends Component {
     return (
       <section id="about">
 
-      <div className="row">
+      <div>
         <img src={process.env.PUBLIC_URL + '/images/mypic.jpeg'} alt="Afrida Logo" className="img-circle shadow up-hover avatar" />
             <p>{data.aboutme}</p>
       </div>

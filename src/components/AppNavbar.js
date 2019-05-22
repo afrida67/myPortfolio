@@ -13,7 +13,7 @@ export class AppNavbar extends React.Component {
     state = {
       isOpen: false
     };
-  
+
 
   toggle = () => {
     this.setState({
@@ -35,13 +35,13 @@ export class AppNavbar extends React.Component {
                 <NavLink href="#about">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/Education">Education</NavLink>
+                <NavLink href="#experience">Experience</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/Experience">Experience</NavLink>
+                <NavLink href="#education">Education</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/Skills">Skills</NavLink>
+                <NavLink href="#projects">Projects</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
