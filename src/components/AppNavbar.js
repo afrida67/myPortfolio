@@ -22,13 +22,13 @@ export class AppNavbar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark" color="light" light expand="md">
           <NavbarBrand href="/">Afrida</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/Home">Home</NavLink>
+                <NavLink className="active" href="#home">Home</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#about">About</NavLink>

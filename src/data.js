@@ -62,7 +62,7 @@ const mydata = {
             "projectName": "Triolet Photo",
             "description": "A django photo uploading website where users can upload, delete, like and view photos of other users",
             "url": "https://triolet67aaa.herokuapp.com/",
-            "imageUrl": "/images/djnago.PNG"
+            "imageUrl": "/images/django.PNG"
          },
          {
             "id":"2",

@@ -8,8 +8,9 @@ export class Home extends Component {
   render() {
     let data = this.props.data;
     return (
+      <section id="home">
       <div>
-        <Jumbotron>
+        <Jumbotron className="home">
             <h1 className="display-3">Hello, world!</h1>
             <p className="lead">I am {data.name}</p>
             <hr className="my-2" />
@@ -33,6 +34,7 @@ export class Home extends Component {
     
       </Jumbotron>
       </div>
+      </section>
     )
   }
 }
