@@ -23,7 +23,7 @@ export class AppNavbar extends React.Component {
     return (
       <div>
         <Navbar className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark" color="light" light expand="md">
-          <NavbarBrand href="/">Afrida</NavbarBrand>
+          <NavbarBrand className="nav-head" href="/">Afrida</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
