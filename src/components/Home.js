@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Jumbotron } from 'reactstrap';
 
+import Typer from './Typer';
 export class Home extends Component {
   state = {
     username: '',
@@ -12,8 +13,9 @@ export class Home extends Component {
       <div>
         <Jumbotron className="home">
             <h1 className="display-3">Hello, world!</h1>
-            <p className="lead">I am {data.name}</p>
-            <hr className="my-2" />
+               <h3>I am {data.name}</h3>
+               <Typer heading={'root:~$'}
+                  dataText={ data.typewriter} />
             <p>I'm currently working as a {data.role} at {data.company}.</p>
             <div className="linkNew">
             <nav>

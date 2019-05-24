@@ -80,6 +80,15 @@ const mydata = {
             "imageUrl": "/images/egg.PNG"
          },
       ],
+      "typewriter":[
+         'Hi, I am Afrida.', 
+         'Welcome to my portfolio.',
+         'I Love learning new technologies',
+         'Fam blog.',
+         'I Love to Develop.',
+         'I am an animated movie freak',
+         'And a big Foodie'
+      ],
       "contact": {
          "mail": "afrida660@gmail.com"
       }
