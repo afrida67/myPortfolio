@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
-@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
-@import url('https://fonts.googleapis.com/css?family=Wire+One');
+@import url('https://fonts.googleapis.com/css?family=VT323');
 
 .App {
   /*text-align: center;*/
@@ -126,3 +125,17 @@
   letter-spacing: 2px;
 }
 
+body {
+  font-family: 'VT323', monospace;
+  padding: 1em 2em;
+}
+
+#cursor {
+  animation: blink .7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
