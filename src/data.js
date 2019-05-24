@@ -2,6 +2,7 @@ const mydata = {
     "name": "Afrida Anzum Aesha",
     "role": "Software Engineer",
     "company": "DSi",
+    "profileImage": "/images/mypic.JPG",
     "socialProfiles": [
          {
             "id": "github",
