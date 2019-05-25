@@ -12,9 +12,9 @@ export class Experience extends Component {
                     data.experience && data.experience.map(item => {
                       return(
                               <li key={item.id}> 
-                             <a href={item.url} target="_blank" rel="noopener noreferrer"><h6>{item.company}</h6></a>
+                             <a href={item.url} target="_blank" rel="noopener noreferrer"><h6 className="dataText">{item.company}</h6></a>
         
-                             <h6>{item.position}</h6>
+                             <h6 className="dataText">{item.position}</h6>
                               </li>
                             )
                       }

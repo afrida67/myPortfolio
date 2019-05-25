@@ -56,23 +56,10 @@
 /*text middle*/
 .border_new{
   border-bottom: 1px solid #E6E6E6;
-  color: #1a0000;
+  color: white;
 }
 
-.img-responsive
-{
-  display: block;
-  margin-bottom: 10px;
-  width:100%;
-  height:100%;
-  border-radius:30px;
-  padding:2px;
-  border:2px solid black;
-}
-.img-responsive:hover 
-{
-    box-shadow: 0 0 16px 3px #F16059;
-}
+
  .caption
 {
   color: #4682B4;
@@ -81,23 +68,28 @@
   padding-bottom:15px;
   text-decoration:underline;
 }
-#portfolio>div>h2
-{
-  font-size:40px;
-  border:1px solid #F16059;
-  padding:0 5px 0 5px;
-  display:inline-block; 
-  font-weight:bold;
+
+
+#portfolio img {
+  height: 200px;
+  display: block;
+  margin: auto;
 }
-#portfolio
-{
-  color: #F16059;
-  margin:auto;
-  text-align: center;
-  padding-top: 40px;
-  font-family: 'Wire One', sans-serif;
-  letter-spacing:5px;
-  font-weight:bold;
+
+
+#portfolio .portfolio-piece {
+  border: 1px solid white;
+  display: block;
+  width: 250px;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: auto ;
+  margin-right: auto ;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 90%;
 }
 
 .nav-head:before {
@@ -128,10 +120,15 @@
 body {
   font-family: 'VT323', monospace;
   padding: 1em 2em;
+  background: #131418;
+  color: wheat;
 }
 
 #cursor {
   animation: blink .7s steps(1) infinite;
+}
+.dataText {
+  font-size: 23px;
 }
 
 @keyframes blink {

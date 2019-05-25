@@ -2,7 +2,7 @@ const mydata = {
     "name": "Afrida Anzum Aesha",
     "role": "Software Engineer",
     "company": "DSi",
-    "profileImage": "/images/mypic.JPG",
+    "profileImage": "https://i.ibb.co/6HPDJGz/mypic.jpg",
     "socialProfiles": [
          {
             "id": "github",
@@ -61,7 +61,7 @@ const mydata = {
          {
             "id":"1",
             "projectName": "Triolet Photo",
-            "description": "A django photo uploading website where users can upload, delete, like and view photos of other users",
+            "description": "A django instagram alike photo uploading website",
             "url": "https://triolet67aaa.herokuapp.com/",
             "imageUrl": "/images/django.PNG"
          },
@@ -75,7 +75,7 @@ const mydata = {
          {
             "id":"3",
             "projectName": "Catch the Egg",
-            "description": "2D openGL game",
+            "description": "A 2D game in openGL. Used glut library.",
             "url": "https://github.com/afrida67/Catch-the-Egg",
             "imageUrl": "/images/egg.PNG"
          },
