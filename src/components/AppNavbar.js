@@ -42,9 +42,6 @@ export class AppNavbar extends React.Component {
               <NavItem>
                 <NavLink href="#projects">Projects</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="#contact">Contact</NavLink>
-              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>

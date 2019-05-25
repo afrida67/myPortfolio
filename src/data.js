@@ -2,6 +2,7 @@ const mydata = {
     "name": "Afrida Anzum Aesha",
     "position": "Software Engineer",
     "company": "Dynamic Solution Innovators",
+    "curl":"http://www.dsinnovators.com/",
     "profileImage": "https://i.ibb.co/6HPDJGz/mypic.jpg",
     "socialProfiles": [
          {
@@ -22,17 +23,23 @@ const mydata = {
          {
             "id": "tumblr",
             "url": "https://afrida67.tumblr.com/",
-            "className":"fa fa-tumblr-square"
+            "className":"fa fa-tumblr-square",
+         },
+         {
+            "id": "stopstalk",
+            "url": "https://www.stopstalk.com/user/profile/afrida67",
+            "imageUrl": "/images/stopstalk-logo.png"
          },
      ],
      "intro": "Let me introduce myself.",
-     "aboutMe": "I like to resolve design problems, create smart user interface and develop rich web experiences & web applications. I am passionate about learning new technologies. To me",
-     "quote":"“Learning without thought is labor lost, thought without learning is perilous” - Confucius",
+     "aboutMe": "My areas of interest are Algorithms, Data Structures, Design Patterns and Machine Learning. I like to resolve design problems, create smart user interface and develop rich web experiences & web applications. I am passionate about learning new technologies. To me",
+     "quote": "“Learning without thought is labor lost, thought without learning is perilous” - Confucius",
+     "aboutMe2": "When I’m not working on project, I spend time playing with problem-solving  to benefit myself . Besides that, I love traveling, listening to music and eating food :).",
      "education": [
          {
             "id":"bsc",
             "schoolName": "Military Institute of Science and Technology (MIST)",
-            "degree":"B.SC in Computer Science & Engineering",
+            "degree":"B.SC in Computer Science & Engineering (CSE)",
             "timePeriod":"January 2014 to January 2018",
             "url": "https://mist.ac.bd",
          },
@@ -57,15 +64,54 @@ const mydata = {
             "company": "Dynamic Solution Innovators",
             "url": "http://www.dsinnovators.com/",
             "position":"Junior Software Engineer",
-            "responsibilty":"",
+            "summary": "I, mainly responsible for developing both front-end and backend development here",
+            "responsibilty":[
+               {
+                  "id":1,
+                  "phase":"Work with JavaScript frameworks and libararies i.e React, Node.js and Docker, GraphQL",
+               },
+               {
+                  "id":2,
+                  "phase":"Work with various database i.e MongoDB, MySQL, Knex etc",
+               },
+               {
+                  "id":3,
+                  "phase":"Test and maintain software products to ensure strong functionality and optimization",
+               },
+            ],
             "timePeriod":"Feb 2019 - Present",
+
          },
          {
             "id": "adiva",
             "company": "Adiva Graphics",
             "url": "https://www.adivagraphics.com/",
             "position":"Programmer",
-            "responsibilty":"",
+            "summary": "",
+            "responsibilty":[
+               {
+                  "id":1,
+                  "phase":"Responsible for designing responsive front end using Django template",
+               },
+               {
+                  "id":2,
+                  "phase":"Worked with PHP, Wordpress",
+               }
+            ],
+            "timePeriod":"May 2018 - July 2018",
+         },
+         {
+            "id": "bracnet",
+            "company": "BRACNet Limited",
+            "url": "http://bracnet.net/",
+            "position":"Industrial Trainee",
+            "summary": " ",
+            "responsibilty":[
+               {
+                  "id":1,
+                  "phase":"Implemented a project which was sending sms through GSM Modem and keep track of them in database",
+               },
+            ],
             "timePeriod":"May 2018 - July 2018",
          }
       ],
@@ -103,11 +149,10 @@ const mydata = {
          'Hi, I am Afrida.', 
          'Welcome to my portfolio.',
          'Want to know more about me?',
-         'Please Scroll Down',
+         'Please, Scroll Down.',
          'Thank You :)'
       ],
-      "contact": {
-         "mail": "afrida660@gmail.com"
-      }
+      "mail": "aeshaa55@gmail.com"
+
 };
 export default mydata;

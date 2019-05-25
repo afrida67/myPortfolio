@@ -5,7 +5,7 @@ export class Experience extends Component {
     let data = this.props.data;
     return (
       <section id="experience">
-      <h1 className="border_new"><i class="fa fa-briefcase"></i> Experience</h1>
+      <h1 className="border_new"><i className="fa fa-briefcase"></i> Experience</h1>
       <div>
              {
                 data.experience && data.experience.map(item => {
@@ -13,20 +13,28 @@ export class Experience extends Component {
                             <div key={item.id}>
                                    <div className="row">
                                       <div className="col-md-9">
-                                      <h4>{item.position}</h4>
-                                        <h4><a href={item.url} target="_blank" rel="noopener noreferrer">{item.company}</a></h4>
+                                      <h5>{item.position}</h5>
+                                        <h5><a href={item.url} target="_blank" rel="noopener noreferrer">{item.company}</a></h5>
                                       </div>
                                       <div className="col-md-3">
-                                        <h3>{item.timePeriod}</h3>
+                                        <h5>{item.timePeriod}</h5>
                                       </div>
                                     </div>
                                     <div className="row">
                                       <div className="col-md-12">
-                                        <p>Here I work with</p>
-                                        <ul>
-                                          <li>- UI design and development.</li>
-                                          <li> Configuration, maintenance and custom development.</li>
-                                        </ul>
+                                        <p>{item.summary}</p>
+                                 
+                                          {
+                                            item.responsibilty && item.responsibilty.map(res => {
+                                              return(
+                                                <ul key={res.id}>
+                                                  <li >{res.phase}</li>
+                                              </ul>
+                                              )
+                                              }
+                                            )
+                                          }
+                               
                                       </div>
                                     </div>
                            </div>

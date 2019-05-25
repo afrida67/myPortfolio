@@ -5,7 +5,6 @@ import About from './components/About';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 import mydata from './data';
@@ -26,7 +25,6 @@ class App extends Component {
            <Experience data = {mydata}/>
            <Education data = {mydata}/>
            <Projects data = {mydata}/>
-           <Contact data = {mydata}/>
            <Footer data = {mydata}/>
         </div>
       );

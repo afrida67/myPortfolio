@@ -8,7 +8,7 @@ export class Footer extends Component {
             <div className="row">
               <div className="section">
                 <div className="col-md-12">
-                      <p className="copyright">Design + Code by <a href="#a" target="_blank">{data.name}</a> <i className="fa fa-coffee"></i> 2019</p>
+                      <p className="copyright">Made with <i className="fa fa-coffee"></i> and <i className="fa fa-music"></i> by <a href="#a" target="_blank">{data.name}</a>  2019 <i className="fa fa-smile-o"></i></p>
                   </div>
               </div> 
             </div> 

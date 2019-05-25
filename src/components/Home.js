@@ -3,9 +3,6 @@ import { Jumbotron } from 'reactstrap';
 
 import Typer from './Typer';
 export class Home extends Component {
-  state = {
-    username: '',
-}
   render() {
     let data = this.props.data;
     return (
@@ -13,8 +10,7 @@ export class Home extends Component {
       <div>
         <Jumbotron className="home">
             <h1 className="display-3">Hello, world!</h1>
-               <Typer heading={'root:~$'}
-                  dataText={ data.typewriter} />
+              <Typer heading={'root:~$'} dataText={ data.typewriter } />
             <div className="linkNew">
             <nav>
             <ul className="social">
@@ -22,7 +18,11 @@ export class Home extends Component {
                     data.socialProfiles && data.socialProfiles.map(item => {
                       return(
                               <li key={item.id}>
-                                <a href={item.url} target="_blank" rel="noopener noreferrer"><i className={item.className}></i></a>
+                                <a href={item.url} target="_blank" rel="noopener noreferrer">
+                                { 
+                                  item.className? <i className={item.className}></i> : <img src={item.imageUrl} alt="social"/>
+                                }
+                                </a>
                               </li>
                             )
                       }

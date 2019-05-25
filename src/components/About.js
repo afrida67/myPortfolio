@@ -5,14 +5,16 @@ export class About extends Component {
     let data = this.props.data;
     return (
       <section id="about">
-      <h1 className="border_new"><i class="fa fa-user"></i> About Me</h1>
+      <h1 className="border_new"><i className="fa fa-user"></i> About Me</h1>
       <div className="container-fluid">
       <div className="row">
        <div className="col-md-6">
           <p>{data.intro}...</p>
-          <p>I'm {data.name} currently working as a {data.position} at {data.company}.</p>
+          <p>I'm {data.name}, currently working as a {data.position} at <a target="_blank" href={data.curl} rel="noopener noreferrer"> {data.company}.</a></p>
           <p>{data.aboutMe}</p>
           <p><i>{data.quote}</i></p>
+          <p>{data.aboutMe2}</p>
+          <p>Mail Me : <a href="mailto:">{data.mail}</a></p>
         </div>
       <div className="col-md-6">
          <img src={data.profileImage} alt="Afrida Logo" className="img-circle shadow up-hover avatar"/>
