@@ -112,7 +112,7 @@ const mydata = {
                   "phase":"Implemented a project which was sending sms through GSM Modem and keep track of them in database",
                },
             ],
-            "timePeriod":"May 2018 - July 2018",
+            "timePeriod":"Dec 2016 - Jan 2017",
          }
       ],
       "projects": [
