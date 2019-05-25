@@ -10,12 +10,13 @@ export class Projects extends Component {
             {
                 data.projects && data.projects.map(item => {
                   return(
-                    <div key={item.id} className="col-md-4">
+                    <div key={item.id} className="col-md-3">
                         <a target="_blank" href={item.url} rel="noopener noreferrer">  
                           <div class="portfolio-piece">
                              <h4 className="text-center">{item.projectName}</h4>
                             <h5 className="text-center"> {item.description}</h5>
-                            <img src="https://gsim2345.github.io/placeholder-camera-green.png"  alt="Placeholder"/>
+                            <img src={item.imageUrl} alt="Placeholder"/>
+
                           </div>
                      </a>
                     </div>

@@ -13,10 +13,8 @@ export class Home extends Component {
       <div>
         <Jumbotron className="home">
             <h1 className="display-3">Hello, world!</h1>
-               <h3>I am {data.name}</h3>
                <Typer heading={'root:~$'}
                   dataText={ data.typewriter} />
-            <p>I'm currently working as a {data.role} at {data.company}.</p>
             <div className="linkNew">
             <nav>
             <ul className="social">

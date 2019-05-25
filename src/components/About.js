@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export class About extends Component {
   render() {
@@ -8,8 +8,11 @@ export class About extends Component {
       <h1 className="border_new"><i class="fa fa-user"></i> About Me</h1>
       <div className="container-fluid">
       <div className="row">
-      <div className="col-md-6">
+       <div className="col-md-6">
+          <p>{data.intro}...</p>
+          <p>I'm {data.name} currently working as a {data.position} at {data.company}.</p>
           <p>{data.aboutMe}</p>
+          <p><i>{data.quote}</i></p>
         </div>
       <div className="col-md-6">
          <img src={data.profileImage} alt="Afrida Logo" className="img-circle shadow up-hover avatar"/>

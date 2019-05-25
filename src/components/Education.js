@@ -11,12 +11,11 @@ export class Education extends Component {
                 {
                     data.education && data.education.map(item => {
                       return(
-                        <li>
+      
                             <div key={item.id}>
-                                <h6 className="dataText">{item.schoolName}</h6> 
-                                <h6 className="dataText">{item.degree}</h6>
+                                 <h6 className="dataText">{item.degree} from  <a href={item.url} target="_blank" rel="noopener noreferrer">{item.schoolName}</a>, {item.timePeriod}</h6>
                               </div>
-                        </li>
+           
                             )       
                       }
                     )
