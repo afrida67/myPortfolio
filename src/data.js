@@ -28,7 +28,7 @@ const mydata = {
          {
             "id": "stopstalk",
             "url": "https://www.stopstalk.com/user/profile/afrida67",
-            "imageUrl": "/images/stopstalk-logo.png"
+            "imageUrl": "https://i.ibb.co/KNppWdr/stopstalk-logo.png"
          },
      ],
      "intro": "Let me introduce myself.",
@@ -121,28 +121,28 @@ const mydata = {
             "projectName": "Triolet Photo",
             "description": "A django instagram alike photo uploading website",
             "url": "https://triolet67aaa.herokuapp.com/",
-            "imageUrl": "/images/py.png"
+            "imageUrl": "https://i.ibb.co/rxRz9Q2/py.png"
          },
          {
             "id":"2",
             "projectName": "Bua.Com",
             "description": "An android application for finding nearby maids",
             "url": "https://github.com/afrida67/Bua.Com-App",
-            "imageUrl":"/images/roid.png"
+            "imageUrl":"https://i.ibb.co/pxS8csj/roid.png"
          },
          {
             "id":"3",
             "projectName": "Catch the Egg",
             "description": "A 2D game in openGL. Used glut library.",
             "url": "https://github.com/afrida67/Catch-the-Egg",
-            "imageUrl": "/images/egg.png"
+            "imageUrl": "https://i.ibb.co/6gsqGrW/egg.png"
          },
          {
             "id":"4",
             "projectName": "Student Database",
             "description": "A student database management and CRUD",
             "url": "https://github.com/afrida67/React-Hapi",
-            "imageUrl": "/images/stu.png"
+            "imageUrl": "https://i.ibb.co/6RkKSvG/stu.png"
          },
       ],
       "typewriter":[
