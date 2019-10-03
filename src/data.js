@@ -3,7 +3,7 @@ const mydata = {
     "position": "Software Engineer",
     "company": "Dynamic Solution Innovators",
     "curl":"http://www.dsinnovators.com/",
-    "profileImage": "https://i.ibb.co/6HPDJGz/mypic.jpg",
+    "profileImage": "https://i.ibb.co/bFJHPvQ/mypic.jpg",
     "socialProfiles": [
          {
             "id": "github",
