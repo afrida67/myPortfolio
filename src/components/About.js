@@ -11,6 +11,7 @@ export class About extends Component {
        <div className="col-md-6">
           <p>{data.intro}...</p>
           <p>I'm {data.name}, currently working as a {data.position} at <a target="_blank" href={data.curl} rel="noopener noreferrer"> {data.company}.</a></p>
+          <p>Completed my Bachelor's Degree in Computer Science & Engineering from <a target="_blank" href={data.universityUrl} rel="noopener noreferrer">{data.universityName} </a> in 2018.</p>
           <p>{data.aboutMe}</p>
           <p><i>{data.quote}</i></p>
           <p>{data.aboutMe2}</p>

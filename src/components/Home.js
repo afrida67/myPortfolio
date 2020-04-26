@@ -9,7 +9,7 @@ export class Home extends Component {
       <section id="home">
       <div>
         <Jumbotron className="home">
-            <h1 className="display-3">Hello, world!</h1>
+            <h1 className="display-3">Hello, World!</h1>
               <Typer heading={'root:~$'} dataText={ data.typewriter } />
             <div className="linkNew">
             <nav>
@@ -18,9 +18,9 @@ export class Home extends Component {
                     data.socialProfiles && data.socialProfiles.map(item => {
                       return(
                               <li key={item.id}>
-                                <a href={item.url} target="_blank" rel="noopener noreferrer">
+                                <a href={item.url} target="_blank" rel="noopener noreferrer" title={item.title} style={{ }}>
                                 { 
-                                  item.className? <i className={item.className}></i> : <img src={item.imageUrl} alt="social"/>
+                                  item.className? <i className={item.className}></i> : <img src={item.imageUrl} alt="social" style={{ "margin-top":"-10px" }}/>
                                 }
                                 </a>
                               </li>

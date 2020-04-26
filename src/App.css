@@ -11,6 +11,10 @@
   color:black;
   background: fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/strange_bullseyes.png');
 }
+a {
+  text-decoration: none !important;
+}
+
 .linkNew{
   min-height: 5px;
 
@@ -142,5 +146,4 @@ body {
   height: 33px;
    width: 34px;
    top: -3px;
-
 }
